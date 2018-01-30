@@ -1,0 +1,9 @@
+package: github.com/cnosuke/redis-http-healthcheck
+import:
+- package: github.com/go-redis/redis
+  version: ^6.8.2
+- package: github.com/urfave/cli
+  version: ^1.20.0
+- package: gopkg.in/yaml.v2
+- package: github.com/k0kubun/pp
+  version: ^2.3.0

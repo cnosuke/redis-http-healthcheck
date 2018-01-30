@@ -1,0 +1,26 @@
+hash: e949ba062cadd4baaad3c6447c9f5024d577ca96f45cbf039c9643df437cf346
+updated: 2018-01-30T19:26:36.256976+09:00
+imports:
+- name: github.com/go-redis/redis
+  version: 4021ace05686f632ff17fd824bbed229fc474cf8
+  subpackages:
+  - internal
+  - internal/consistenthash
+  - internal/hashtag
+  - internal/pool
+  - internal/proto
+- name: github.com/k0kubun/pp
+  version: 027a6d1765d673d337e687394dbe780dd64e2a1e
+- name: github.com/mattn/go-colorable
+  version: 6cc8b475d4682021d75d2cbe2bc481bec4ce98e5
+- name: github.com/mattn/go-isatty
+  version: 6ca4dbf54d38eea1a992b3c722a76a5d1c4cb25c
+- name: github.com/urfave/cli
+  version: cfb38830724cc34fedffe9a2a29fb54fa9169cd1
+- name: golang.org/x/sys
+  version: 2c42eef0765b9837fbdab12011af7830f55f88f0
+  subpackages:
+  - unix
+- name: gopkg.in/yaml.v2
+  version: eb3733d160e74a9c7e442f435eb3bea458e1d19f
+testImports: []
